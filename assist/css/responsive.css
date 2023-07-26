@@ -4,7 +4,7 @@
 
 @media only screen and (max-width: 380px) {
   #hero {
-    height: 100vh;
+    height: 95vh;
   }
 
   .hero-text>h1 {
