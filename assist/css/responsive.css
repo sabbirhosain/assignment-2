@@ -1,0 +1,48 @@
+/* ======================================================
+    This is Responsive Hero Section (max-width: 380px)
+========================================================= */
+
+@media only screen and (max-width: 380px) {
+  #hero {
+    height: 100vh;
+  }
+
+  .hero-text>h1 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.5;
+    text-align: center;
+  }
+
+  .hero-text>p {
+    margin-bottom: 20px;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .btn-row {
+    display: block;
+  }
+
+  .btn-left>a {
+    display: block;
+    text-align: center;
+    margin: 0;
+  }
+
+  .btn-right>a {
+    margin-top: 20px;
+    justify-content: center;
+  }
+}
+
+/* ===============================
+    This is Responsive About Section
+================================ */
+@media only screen and (max-width: 380px) {}
+
+@media only screen and (max-width: 576px) {
+  .clients {
+    display: none;
+  }
+}
