@@ -109,28 +109,139 @@
   </section>
 
   <!-- This is About Section -->
-  <section class="container" id="about">
+  <section class="container my-5" id="about">
     <h1 class="section-title"> About Us</h1>
-    <div class="row">
+    <div class="row align-items-center justify-content-between">
       <div class="col-lg-6">
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod maxime eaque expedita sed fugiat sapiente ut!
-          Nemo labore officia voluptate.</p>
-        <ul>
+        <p class="about-pragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod maxime eaque expedita sed fugiat sapiente
+          Nemo labore voluptate.</p>
+        <ul class="about-list">
           <li><i class="fa-solid fa-check-double"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
           <li><i class="fa-solid fa-check-double"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
           <li><i class="fa-solid fa-check-double"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
         </ul>
       </div>
       <div class="col-lg-6">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum praesentium quibusdam provident quae! At
+        <p class="about-pragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum praesentium quibusdam provident quae! At
           officiis illo quidem, ea esse, tenetur cumque provident, minus numquam molestiae accusantium totam labore
           deleniti veniam?</p>
-        <a href="#" class="btn btn-primary">Learn More</a>
+        <a href="#" class="learn-more">Learn More</a>
       </div>
     </div>
   </section>
 
+  <!-- This is Why Us Section -->
+  <section class="container-fluid my-5 sec-bg-color" id="why-us">
+    <div class="container py-5">
+      <div class="row py-lg-5">
+        <div class="col-lg-6">
+          <div class="why-us">
+            <h2 class="why-us-heading"><span>Eum ipsam laborum deleniti</span> velit pariatur architecto aut nihil</h2>
+            <p class="why-up-paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil sit corrupti
+              velit. Amet quos
+              recusandaequam assumenda unde perspiciatis, atque quo aliquid dignissimos.</p>
 
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                    aria-expanded="true" aria-controls="collapseOne">
+                    <h6><span class="me-3">01</span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>It is shown by default, until the collapse plugin adds the appropriate classes that we use to
+                      style each element. These classes control theoverall appearance, as well as the showing and
+                      hidingvia CSS transitions.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <h6><span class="me-3">02</span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>It is shown by default, until the collapse plugin adds the appropriate classes that we use to
+                      style each element. These classes control theoverall appearance, as well as the showing and
+                      hidingvia CSS transitions.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <h6><span class="me-3">03</span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>It is shown by default, until the collapse plugin adds the appropriate classes that we use to
+                      style each element. These classes control theoverall appearance, as well as the showing and
+                      hidingvia CSS transitions.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- This is Services Section -->
+  <section class="container-fluid my-5 sec-bg-color" id="services">
+    <div class="container py-5">
+      <h1 class="section-title">Services</h1>
+      <div class="row">
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3">
+          <div class="card">
+            <i class="fa-solid fa-baseball"></i>
+            <div class="card-body">
+              <h5>Hello World</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3">
+          <div class="card">
+            <i class="fa-regular fa-file"></i>
+            <div class="card-body">
+              <h5>Hello World</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3">
+          <div class="card">
+            <i class="fa-solid fa-gauge"></i>
+            <div class="card-body">
+              <h5>Hello World</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3">
+          <div class="card">
+            <i class="fa-brands fa-dropbox"></i>
+            <div class="card-body">
+              <h5>Hello World</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <script src="assist/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assist/js/app.js"></script>
