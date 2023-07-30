@@ -142,4 +142,8 @@
   .clients {
     display: none;
   }
+
+  .call-action-text{
+    margin-bottom: -100px;
+  }
 }
