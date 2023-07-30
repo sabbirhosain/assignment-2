@@ -1,3 +1,80 @@
+
+/* ======================================================
+    This is Responsive Hero Section (max-width: 576px)
+========================================================= */
+
+@media only screen and (max-width: 576px) {
+  /* ====================
+      This is Hero Section
+    =======================*/
+    #hero {
+      height: 90vh;
+    }
+  
+    .hero-image {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .hero-image img {
+      width: 95%;
+    }
+  
+    .hero-text>h1 {
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 1.5;
+      text-align: center;
+      margin-top: 20px;
+    }
+  
+    .hero-text>p {
+      margin-bottom: 30px;
+      font-size: 14px;
+      text-align: center;
+    }
+  
+    .btn-row {
+      display: block;
+    }
+  
+    .btn-left>a {
+      display: block;
+      text-align: center;
+      margin: 0;
+    }
+  
+    .btn-right>a {
+      margin-top: 20px;
+      justify-content: center;
+    }
+  }
+  
+  /* ===============================
+      This is Responsive About Section
+  ================================ */
+  @media only screen and (max-width: 480px) {
+    #hero {
+      height: 90vh;
+    }
+  }
+  
+  @media only screen and (max-width: 576px) {
+    .clients {
+      display: none;
+    }
+  
+    .call-action-text{
+      margin-bottom: -100px;
+    }
+  }
+
+
+
+
+
+
 /* ========================================
     This is Responsive (max-width: 380px)
 =========================================== */
@@ -99,74 +176,3 @@
 }
 
 
-
-/* ======================================================
-    This is Responsive Hero Section (max-width: 576px)
-========================================================= */
-
-@media only screen and (max-width: 576px) {
-/* ====================
-    This is Hero Section
-  =======================*/
-  #hero {
-    height: 90vh;
-  }
-
-  .hero-image {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .hero-image img {
-    width: 95%;
-  }
-
-  .hero-text>h1 {
-    font-size: 30px;
-    font-weight: 700;
-    line-height: 1.5;
-    text-align: center;
-    margin-top: 20px;
-  }
-
-  .hero-text>p {
-    margin-bottom: 30px;
-    font-size: 14px;
-    text-align: center;
-  }
-
-  .btn-row {
-    display: block;
-  }
-
-  .btn-left>a {
-    display: block;
-    text-align: center;
-    margin: 0;
-  }
-
-  .btn-right>a {
-    margin-top: 20px;
-    justify-content: center;
-  }
-}
-
-/* ===============================
-    This is Responsive About Section
-================================ */
-@media only screen and (max-width: 480px) {
-  #hero {
-    height: 90vh;
-  }
-}
-
-@media only screen and (max-width: 576px) {
-  .clients {
-    display: none;
-  }
-
-  .call-action-text{
-    margin-bottom: -100px;
-  }
-}
