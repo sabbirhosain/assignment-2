@@ -75,6 +75,10 @@ a {
   }
 }
 
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
 .active {
   color: #47b2e4 !important;
 }
@@ -271,6 +275,24 @@ a {
   margin: 15px 0px;
 }
 
+.accordion-button:focus {
+  box-shadow: none !important;
+}
+
+/* ===============================
+      This is Skill Section
+================================ */
+.progress-heading {
+  font-weight: 700;
+  font-size: 32px;
+  color: #37517e;
+}
+
+.progress-paragraph{
+  font-style: italic;
+}
+
+
 /* ===============================
       This is Services Section
 ================================ */
@@ -297,6 +319,10 @@ a {
 .card-body h5 {
   color: #47b2e4;
   padding: 10px 0px;
+}
+
+.accordion-button::after {
+  background-size: 15px;
 }
 
 /* =================================

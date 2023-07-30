@@ -62,7 +62,43 @@
   i {
     font-size: 14px !important;
   }
+
+  /* =====================
+    This is Why us Section
+  ========================*/
+  .why-us {
+    margin-top: 20px;
+  }
+
+  .why-us>.why-us-heading {
+    font-size: 22px;
+  }
+
+  .why-up-paragraph {
+    margin-bottom: 20px;
+  }
+
+  .accordion-body>p {
+    font-size: 14px;
+  }
+
+  .progress-heading {
+    font-size: 22px;
+  }
+
+  .progress-paragraph {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
+
+
+
+
+
 }
+
+
 
 /* ======================================================
     This is Responsive Hero Section (max-width: 576px)
