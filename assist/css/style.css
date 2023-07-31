@@ -288,7 +288,7 @@ a {
   color: #37517e;
 }
 
-.progress-paragraph{
+.progress-paragraph {
   font-style: italic;
 }
 
@@ -662,6 +662,13 @@ This is Footer Section
   #footer .credits {
     padding-top: 4px;
   }
+}
+
+/* ===============================
+      This is Portfolio Section
+================================ */
+.nav-pills .nav-link.active {
+  background-color: transparent !important;
 }
 
 /* ===============================
