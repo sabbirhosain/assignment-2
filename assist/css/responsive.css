@@ -1,77 +1,52 @@
-
-/* ======================================================
-    This is Responsive Hero Section (max-width: 576px)
-========================================================= */
+/* ==========================================
+    This is Responsive (max-width: 576px)
+============================================= */
 
 @media only screen and (max-width: 576px) {
+
   /* ====================
       This is Hero Section
     =======================*/
-    #hero {
-      height: 90vh;
-    }
-  
-    .hero-image {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-  
-    .hero-image img {
-      width: 95%;
-    }
-  
-    .hero-text>h1 {
-      font-size: 30px;
-      font-weight: 700;
-      line-height: 1.5;
-      text-align: center;
-      margin-top: 20px;
-    }
-  
-    .hero-text>p {
-      margin-bottom: 30px;
-      font-size: 14px;
-      text-align: center;
-    }
-  
-    .btn-row {
-      display: block;
-    }
-  
-    .btn-left>a {
-      display: block;
-      text-align: center;
-      margin: 0;
-    }
-  
-    .btn-right>a {
-      margin-top: 20px;
-      justify-content: center;
-    }
+  #hero {
+    height: 110vh;
   }
-  
+
+  .hero-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero-image img {
+    width: 90%;
+  }
+
+  .hero-text>h1 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: center;
+  }
+
+  .hero-text>p {
+    margin-bottom: 30px;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .btn-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   /* ===============================
-      This is Responsive About Section
-  ================================ */
-  @media only screen and (max-width: 480px) {
-    #hero {
-      height: 90vh;
-    }
+      This is Clients Section
+================================ */
+  .clients {
+    display: none;
   }
-  
-  @media only screen and (max-width: 576px) {
-    .clients {
-      display: none;
-    }
-  
-    .call-action-text{
-      margin-bottom: -100px;
-    }
-  }
-
-
-
+}
 
 
 
@@ -127,6 +102,13 @@
     justify-content: center;
   }
 
+  /* ===============================
+      This is Clients Section
+================================ */
+  .clients {
+    display: none;
+  }
+
   /* ====================
     This is About Section
   =======================*/
@@ -168,11 +150,56 @@
     margin-bottom: 20px;
   }
 
+  /* =====================
+    This is Services Section
+  ========================*/
+  .card>.card-icon {
+    font-size: 30px !important;
+  }
 
+  /* ===========================
+    This is Call to Action Section
+  ================================*/
+  .call-action-text {
+    margin-bottom: -130px;
+  }
+
+  /* ===========================
+    This is Team Section
+  ================================*/
+  .card {
+    padding-top: 30px !important;
+  }
+
+  .team-card-row {
+    display: block !important;
+  }
+
+  .team-card-col-1 {
+    display: block !important;
+    width: 100%;
+  }
+
+  .team-card-col-1>img {
+    width: 50% !important;
+  }
+
+  .team-card-col-2 {
+    display: block !important;
+    width: 100%;
+    text-align: center !important;
+  }
+
+  .card-description {
+    margin-top: 5px !important;
+  }
+
+  .team-position::after {
+    width: 80px !important;
+    left: 35% !important;
+  }
 
 
 
 
 }
-
-
